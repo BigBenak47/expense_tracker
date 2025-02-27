@@ -1,4 +1,9 @@
-HELP.md
+# Ignore application configuration files
+src/main/resources/application.properties
+src/main/resources/application.yml
+.env
+
+# Ignore target directories
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
